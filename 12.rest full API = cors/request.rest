@@ -1,0 +1,25 @@
+GET http://127.0.0.1:3000/product
+
+###
+GET http://127.0.0.1:3000/product/6269c70e95aea8b90df16dc2
+
+###
+POST  http://127.0.0.1:3000/product
+Content-Type: application/json
+
+{
+    "nama" : "daiya",
+    "harga" : 4000
+}
+
+###
+PATCH   http://127.0.0.1:3000/product/6269c70e95aea8b90df16dc2
+Content-Type: application/json
+
+{
+    "nama" : "Sabun",
+    "harga" : 3000
+}
+
+###
+DELETE http://127.0.0.1:3000/product/6269c6f595aea8b90df16dbe

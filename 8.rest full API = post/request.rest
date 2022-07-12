@@ -1,0 +1,22 @@
+GET http://127.0.0.1:3000/product
+
+###
+
+dan untuk menambahkan datanya kalian bisa tulis seperti ini
+
+###
+POST  http://127.0.0.1:3000/product
+Content-Type: application/json
+
+{
+    "nama" : "soklin",
+    "harga" : 5000
+}
+
+###
+nah untuk uji coba kalian bisa langsung tuliskan Content-Type: application/json
+lalu dibawahnya adalah data yang mau dikirimkan dalam bentuk json
+
+kalo kita jalankan 
+maka kita berhasil menambahkan datanya didalam
+mongodb

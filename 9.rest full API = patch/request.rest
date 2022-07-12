@@ -1,0 +1,22 @@
+GET http://127.0.0.1:3000/product
+
+###
+POST  http://127.0.0.1:3000/product
+Content-Type: application/json
+
+{
+    "nama" : "daiya",
+    "harga" : 4000
+}
+
+###
+PATCH   http://127.0.0.1:3000/product/6269c6fe95aea8b90df16dc0
+Content-Type: application/json
+
+{
+    "nama" : "Rinso",
+    "harga" : 3000
+}
+
+###
+nah kalo kita jalankan maka data rinso telah diupdate

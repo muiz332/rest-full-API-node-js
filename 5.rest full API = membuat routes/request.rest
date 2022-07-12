@@ -1,0 +1,21 @@
+nah untuk melakukan pengujian 
+misalkan kita menggunakan request methodnya get
+dan kemudian kita kasih urlnya
+
+###
+GET http://127.0.0.1:3000/product
+
+nah setelah itu kita bisa klik send requst
+maka hasilnya akan tampil dikanan
+
+nah nanti untuk responsenya kita akan mengambil datanya dari database
+yang akan mengembalikan json sebagai data responsenya
+
+kita tambahkan routenya lagi dengan request methodnya post
+setelah kita tambahkan kita bisa uji disini
+
+###
+POST http://127.0.0.1:3000/product
+
+nah kalo saya kalian send requst maka yang dikembalikan adalah
+request method post
